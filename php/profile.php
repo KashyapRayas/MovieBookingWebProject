@@ -17,7 +17,7 @@
             </div>
 
             <ul class="nav-links">
-                <li><a href=""><i class="fa-solid fa-ticket"></i>Movies</a></li>
+                <li><a href="movies.php"><i class="fa-solid fa-ticket"></i>Movies</a></li>
                 <li><a href=""><i class="fa-solid fa-calendar"></i>Events</a></li>
                 <li><a href="home.php"><i class="fa-solid fa-right-to-bracket"></i>Logout</a></li>
             </ul>

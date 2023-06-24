@@ -17,7 +17,6 @@
             </div>
 
             <ul class="nav-links">
-                <li><a href=""><i class="fa-solid fa-ticket"></i>Movies</a></li>
                 <li><a href=""><i class="fa-solid fa-calendar"></i>Events</a></li>
                 <li><a href="signup.php"><i class="fa-solid fa-user"></i>Sign Up/ Login</a></li>
             </ul>

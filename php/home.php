@@ -17,7 +17,7 @@
             </div>
 
             <ul class="nav-links">
-                <li><a href=""><i class="fa-solid fa-ticket"></i>Movies</a></li>
+                <li><a href="movies.php"><i class="fa-solid fa-ticket"></i>Movies</a></li>
                 <li><a href=""><i class="fa-solid fa-calendar"></i>Events</a></li>
                 <li><a href="signup.php"><i class="fa-solid fa-user"></i>Sign Up/ Login</a></li>
             </ul>
@@ -29,7 +29,7 @@
             <div class="hero-text">
                 <h1>Book tickets,<br>Hassle free.</h1>
                 <h3><span>Trying to book in advance or in the last second?</span><br>We've got you covered. Sit back, relax & grab some popcorn</h3>
-                <a href="">Book a Tix</a>
+                <a href="movies.php">Book a Tix</a>
             </div>
         </div>
         <div class="hero-wrapper"></div>
