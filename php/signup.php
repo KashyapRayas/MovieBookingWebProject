@@ -60,7 +60,7 @@
                         <div>Sign Up</div>
                     </div>
                     <h1 class="bottom-text">
-                        Already have an account? <a href="login.html">Login</a>
+                        Already have an account? <a href="login.php">Login</a>
                     </h1>
                 </div>
 

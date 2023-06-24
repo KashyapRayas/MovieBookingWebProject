@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TixSee | Profile</title>
+    <title>TixSee | Login</title>
     <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
     <nav>
         <div class="nav-wrapper">
             <div class="nav-logo">
@@ -19,45 +19,35 @@
             <ul class="nav-links">
                 <li><a href=""><i class="fa-solid fa-ticket"></i>Movies</a></li>
                 <li><a href=""><i class="fa-solid fa-calendar"></i>Events</a></li>
-                <li><a href="home.html"><i class="fa-solid fa-right-to-bracket"></i>Logout</a></li>
             </ul>
         </div>
     </nav>
 
-    <div id="profile" class="profile">
+    <div id="profile" class="signup">
         <form action="" method="post">
 
-            <legend>My Profile</legend>
+            <legend><h3>Welcome back!</h3>Login to your account</legend>
             <div class="form-group-wrapper">
-                <div class="name-group form-group">
-                    <i class="fa-solid fa-user"></i>
-                    <label for="funame">First Name</label>
-                    <input type="text" name="funame" value="" id="funame" disabled>
-                </div>
-                <div class="name-group form-group">
-                    <i class="fa-solid fa-user"></i>
-                    <label for="luname">Last Name</label>
-                    <input type="text" name="luname" value="" id="luname" disabled>
-                </div>
                 <div class="name-group form-group">
                     <i class="fa-solid fa-envelope"></i>
                     <label for="uemail">Email</label>
-                    <input type="email" name="uemail" value="" id="uemail" disabled>
+                    <input type="email" name="uemail" value="" id="uemail">
                 </div>
                 <div class="name-group form-group">
-                    <i class="fa-solid fa-phone"></i>
-                    <label for="uphone">Mobile No</label>
-                    <input type="text" name="uphone" value="" id="uphone" disabled>
+                    <i class="fa-solid fa-lock"></i>
+                    <label for="uphone">Password</label>
+                    <input type="password" name="upass" value="" id="upass">
                 </div>
-                <div class="name-group form-group">
-                    <i class="fa-solid fa-cake"></i>
-                    <label for="udate">Date of Birth</label>
-                    <input type="date" name="udate" value="" id="udate" disabled>
+                <div class="bottom">
+                    <div class="button-group form-group">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        <div>Login</div>
+                    </div>
+                    <h1 class="bottom-text">
+                        Don't have an account? <a href="signup.php">Sign up!</a>
+                    </h1>
                 </div>
-                <div class="button-group form-group">
-                    <i class="fa-solid fa-edit"></i>
-                    <div>Edit</div>
-                </div>
+
             
             </div>
             
@@ -95,6 +85,6 @@
     </footer>
 
     <script src="/js/main.js"></script>
-
+    
 </body>
 </html>
