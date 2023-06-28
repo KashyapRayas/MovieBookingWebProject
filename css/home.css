@@ -122,15 +122,73 @@ nav a:hover {
     box-shadow: -0.0em 0.0em black;
 }
 
+@keyframes spideyMotion {
+    0% {
+        margin-top: 11%;
+        margin-left: -9%;
+    }
+    25% {
+        margin-top: 10%;
+        margin-left: -9%;
+    }
+    50% {
+        margin-top: 11%;
+        margin-left: -10%;
+    }
+    75% {
+        margin-top: 10%;
+        margin-left: -10%;
+    }
+    100% {
+        margin-top: 11%;
+        margin-left: -9%;
+    }
+}
+
+
 #home {
     position: relative;
     width: 100%;
     height: 60vh;
-    background-color: aliceblue;
+    background-color: white;
     display: flex;
     align-items: center;
     border-bottom: 0.3em solid black;
     box-sizing: border-box;
+
+    .hero-wrapper {
+        width: 50%;
+        height: 100%;
+        position: relative;
+
+        & img {
+            position: absolute;
+        }
+
+        .spidey {
+            width: 60%;
+            z-index: 3;
+            margin-left: -10%;
+            margin-top: 8%;
+            transition: 0.2s all ease-out;
+            animation: spideyMotion 5s ease-in-out 0s infinite;
+        }
+
+        .bg-wrapper {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            overflow: hidden;
+
+            & img {
+                height: 100%;
+                transform: translateX(-20%);
+            }
+
+        }
+
+    }
 
     .hero-text-wrapper {
         width: 50%;
@@ -147,19 +205,20 @@ nav a:hover {
         }
 
         & span {
-            font-size: 1.3rem;
+            font-size: 1.5rem;
             font-weight: 500;
             color: rgb(125, 56, 171);
         }
 
         & h1 {
-            font-size: 3.5rem;
+            font-size: 4.5rem;
             font-weight: 500;
             line-height: 1em;
             margin: 0;
         }
 
         & h3 {
+            font-size: 1.5rem;
             font-weight: 400;
         }
 

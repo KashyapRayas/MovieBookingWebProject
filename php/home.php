@@ -32,10 +32,18 @@
                 <a href="movies.php"><i class="fa-solid fa-ticket"></i>Book a Tix</a>
             </div>
         </div>
-        <div class="hero-wrapper"></div>
+        <div class="hero-wrapper">
+            <img class="spidey" src="/assets/spidey.png" alt="">
+            <div class="bg-wrapper">
+                <img class="spideybg" src="/assets/spideybg.jpg" alt="">
+            </div>
+        </div>
     </div>
 
     <div id="released">
+        <div class="news-marquee">
+
+        </div>
         <h1><i class="fa-solid fa-film"></i> In Theatres</h1>
         <div class="wrapper-wrapper in-theatres">
             <div class="description">
@@ -566,6 +574,7 @@
         </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="/js/main.js"></script>
     
 </body>

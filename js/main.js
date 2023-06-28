@@ -4,6 +4,19 @@ const homeIcon = document.querySelector('nav .nav-logo')
 let profileEditState = true
 const forwardBtn = document.querySelectorAll('.description .button-forward')
 const backwardBtn = document.querySelectorAll('.description .button-backward')
+const spidey = document.querySelector('.spidey')
+
+function spideyIdle(flag) {
+    if(flag) {
+        
+    }
+}
+
+document.body.addEventListener('scroll',()=>{
+    scrollY = document.documentElement.scrollTop? document.documentElement.scrollTop : document.body.scrollTop
+    scaleY = scrollY>window.innerHeight? 1.5 : scrollY/window.innerHeight 
+    spidey.style.transform = `translateY(${scrollY/10}px) scale(${1+scaleY/5})`
+})
 
 forwardBtn.forEach(btn => {
     btn.addEventListener('click', ()=>{
