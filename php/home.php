@@ -29,7 +29,7 @@
             <div class="hero-text">
                 <h1>Book tickets,<br>Hassle free.</h1>
                 <h3><span>Trying to book in advance or in the last second?</span><br>We've got you covered. Sit back, relax & grab some popcorn</h3>
-                <a href="movies.php">Book a Tix</a>
+                <a href="movies.php"><i class="fa-solid fa-ticket"></i>Book a Tix</a>
             </div>
         </div>
         <div class="hero-wrapper"></div>
