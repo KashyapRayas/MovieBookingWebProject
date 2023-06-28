@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Kanit', sans-serif;
+    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -214,9 +215,44 @@ nav a:hover {
         gap: 2em;
 
         .description {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
             width: 10em;
             background-color: rgb(125, 56, 171);
             border-radius: 0em 2em 2em 0em;
+            gap: 3em;
+
+            .button-group {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                width: max-content;
+                height: max-content;
+                padding: 0.8em 1.6em;
+                transition: 0.3s all ease-out;
+                border: 0.15em solid black;
+                border-radius: 1em;
+                box-shadow: -0.25em 0.25em black;
+                transform: translate(0.3em, 0.3em);
+                color: rgb(125, 56, 171);
+                background-color: white;
+                gap: 1em;
+                cursor: pointer;
+
+                & i {
+                    font-size: 2rem;
+                }
+
+            }
+
+            .button-group:hover {
+                transform: translate(-0.3em, 0.6em);
+                box-shadow: 0.0em 0.0em black;
+            }
+
         }
 
     }
@@ -247,6 +283,7 @@ nav a:hover {
         padding-bottom: 2em;
         padding-left: 1em;
         overflow-x: scroll;
+        scroll-behavior: smooth;
         background-color: white;
 
         .card-wrapper {
@@ -510,6 +547,7 @@ footer {
     height: max-content;
     display: flex;
     background-color: white;
+    /* background-color: aliceblue; */
     justify-content: space-evenly;
     padding: 2em 0em 2em 0em;
     border-top: 0.5em solid black;

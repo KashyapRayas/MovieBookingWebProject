@@ -27,7 +27,12 @@
         <h1><i class="fa-solid fa-film"></i> In Theatres</h1>
         <div class="wrapper-wrapper in-theatres">
             <div class="description">
-                
+            <div class="button-forward button-group">
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+                <div class="button-backward button-group">
+                    <i class="fa-solid fa-backward"></i>
+                </div>
             </div>
             <div class="wrapper">
 
@@ -349,7 +354,12 @@
         <br><br><h1 class="h1-recommended"><i class="fa-solid fa-star"></i> Critics' Choices</h1>
         <div class="wrapper-wrapper recommended">
             <div class="description">
-                
+            <div class="button-forward button-group">
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+                <div class="button-backward button-group">
+                    <i class="fa-solid fa-backward"></i>
+                </div>
             </div>
             <div class="wrapper">
 
@@ -515,7 +525,12 @@
         <br><br><h1><i class="fa-solid fa-clapperboard"></i> Upcoming Films</h1>
         <div class="wrapper-wrapper upcoming">
             <div class="description">
-                
+            <div class="button-forward button-group">
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+                <div class="button-backward button-group">
+                    <i class="fa-solid fa-backward"></i>
+                </div>
             </div>
             <div class="wrapper">
 
