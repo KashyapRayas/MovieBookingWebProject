@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <nav>
+    <nav class="elem">
         <div class="nav-wrapper">
             <div class="nav-logo">
                 <img src="/assets/ticketlogo.svg" alt="">
@@ -27,7 +27,8 @@
     <div id="home">
         <div class="hero-text-wrapper">
             <div class="hero-text">
-                <h1>Book tickets,<br>Hassle free.</h1>
+                <h1>Book tickets,
+                <br><span>Hassle free.</span></h1>
                 <h3><span>Trying to book in advance or in the last second?</span><br>We've got you covered. Sit back, relax & grab some popcorn</h3>
                 <a href="movies.php"><i class="fa-solid fa-ticket"></i>Book a Tix</a>
             </div>
@@ -41,8 +42,25 @@
     </div>
 
     <div id="released">
-        <div class="news-marquee">
-
+        <div class="marquee elem">
+            <div class="marquee-scroll">
+                <i class="fa-solid fa-clapperboard"></i>
+                <h1>New Releases in Theatres</h1>
+                <i class="fa-solid fa-clapperboard"></i>
+                <h1>New Releases in Theatres</h1>
+                <i class="fa-solid fa-clapperboard"></i>
+                <h1>New Releases in Theatres</h1>
+                <i class="fa-solid fa-clapperboard"></i>
+                <h1>New Releases in Theatres</h1>
+                <i class="fa-solid fa-clapperboard"></i>
+                <h1>New Releases in Theatres</h1>
+                <i class="fa-solid fa-clapperboard"></i>
+                <h1>New Releases in Theatres</h1>
+                <i class="fa-solid fa-clapperboard"></i>
+                <h1>New Releases in Theatres</h1>
+                <i class="fa-solid fa-clapperboard"></i>
+                <h1>New Releases in Theatres</h1>
+            </div>
         </div>
         <h1><i class="fa-solid fa-film"></i> In Theatres</h1>
         <div class="wrapper-wrapper in-theatres">

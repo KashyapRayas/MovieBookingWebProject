@@ -5,12 +5,25 @@ let profileEditState = true
 const forwardBtn = document.querySelectorAll('.description .button-forward')
 const backwardBtn = document.querySelectorAll('.description .button-backward')
 const spidey = document.querySelector('.spidey')
+const marquee = document.querySelector('.marquee-scroll')
 
-function spideyIdle(flag) {
-    if(flag) {
-        
-    }
+function marqueeScroll() {
+    const marquee_anime = anime.timeline({
+        easing: 'linear',
+        loop: true,
+        autoplay: true,
+        duration: 8000
+    })
+    .add({
+        targets: marquee,
+        keyframes: [
+            {translateX: -window.innerWidth*0.986, duration: 0},
+            {translateX: -window.innerWidth*0.986, translateX: 0, duration: 8000}
+        ]
+    })
 }
+
+marqueeScroll()
 
 document.body.addEventListener('scroll',()=>{
     scrollY = document.documentElement.scrollTop? document.documentElement.scrollTop : document.body.scrollTop
