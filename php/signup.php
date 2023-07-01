@@ -62,7 +62,7 @@
                 <div class="bottom">
                     <div class="button-group form-group">
                         <i class="fa-solid fa-right-to-bracket"></i>
-                        <div>Sign Up</div>
+                        <input type="submit" value="Sign In">
                     </div>
                     <h1 class="bottom-text">
                         Already have an account? <a href="login.php">Login</a>

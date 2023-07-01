@@ -631,6 +631,17 @@ nav a:hover {
                 border: 0.1em solid black;
             }
 
+            & input[type="submit"] {
+                font-size: 1.2rem;
+                background-color: transparent;
+                background-repeat: no-repeat;
+                border: none;
+                cursor: pointer;
+                overflow: hidden;
+                outline: none;
+                color: white;
+            }
+
             & select {
                 width: 20vw;
                 border-radius: 0.5em;
