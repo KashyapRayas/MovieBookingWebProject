@@ -559,9 +559,228 @@
 
             </div>
         </div>
-
-
     </div>
+
+    <div id="upcoming">
+        <div class="marquee elem">
+            <div class="marquee-scroll">
+                <i class="fa-solid fa-clapperboard"></i>
+                <h1>Coming soon</h1>
+                <i class="fa-solid fa-clapperboard"></i>
+                <h1>Coming soon</h1>
+                <i class="fa-solid fa-clapperboard"></i>
+                <h1>Coming soon</h1>
+                <i class="fa-solid fa-clapperboard"></i>
+                <h1>Coming soon</h1>
+                <i class="fa-solid fa-clapperboard"></i>
+                <h1>Coming soon</h1>
+                <i class="fa-solid fa-clapperboard"></i>
+                <h1>Coming soon</h1>
+                <i class="fa-solid fa-clapperboard"></i>
+                <h1>Coming soon</h1>
+                <i class="fa-solid fa-clapperboard"></i>
+                <h1>Coming soon</h1>
+            </div>
+        </div>
+        <h1><i class="fa-solid fa-film"></i> Upcoming Movies</h1>
+        <div class="wrapper-wrapper in-theatres">
+            <div class="description">
+                <div class="button-forward button-group">
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+                <div class="button-backward button-group">
+                    <i class="fa-solid fa-backward"></i>
+                </div>
+            </div>
+            <div class="wrapper">
+
+                <a href="" class="card-wrapper">
+                    <div class="card">
+                        <div class="poster">
+                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            Spiderman: Across the Spiderverse
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-heart"></i>
+                            <h3>20k</h3><br>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>8.7/10</h3><br>
+                            <i class="fa-solid fa-clock"></i>
+                            <h3>3h</h3>
+                        </div>
+                        <div class="details2">
+                            <h3>English</h3>
+                            <h3>Hindi (Dub)</h3>
+                            <h3>4DX</h3>
+                            <h3>3D</h3>
+                            <h3>2D</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="card-wrapper">
+                    <div class="card">
+                        <div class="poster">
+                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            Spiderman: Across the Spiderverse
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-heart"></i>
+                            <h3>20k</h3><br>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>8.7/10</h3><br>
+                            <i class="fa-solid fa-clock"></i>
+                            <h3>3h</h3>
+                        </div>
+                        <div class="details2">
+                            <h3>English</h3>
+                            <h3>Hindi (Dub)</h3>
+                            <h3>4DX</h3>
+                            <h3>3D</h3>
+                            <h3>2D</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="card-wrapper">
+                    <div class="card">
+                        <div class="poster">
+                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            Spiderman: Across the Spiderverse
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-heart"></i>
+                            <h3>20k</h3><br>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>8.7/10</h3><br>
+                            <i class="fa-solid fa-clock"></i>
+                            <h3>3h</h3>
+                        </div>
+                        <div class="details2">
+                            <h3>English</h3>
+                            <h3>Hindi (Dub)</h3>
+                            <h3>4DX</h3>
+                            <h3>3D</h3>
+                            <h3>2D</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="card-wrapper">
+                    <div class="card">
+                        <div class="poster">
+                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            Spiderman: Across the Spiderverse
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-heart"></i>
+                            <h3>20k</h3><br>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>8.7/10</h3><br>
+                            <i class="fa-solid fa-clock"></i>
+                            <h3>3h</h3>
+                        </div>
+                        <div class="details2">
+                            <h3>English</h3>
+                            <h3>Hindi (Dub)</h3>
+                            <h3>4DX</h3>
+                            <h3>3D</h3>
+                            <h3>2D</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="card-wrapper">
+                    <div class="card">
+                        <div class="poster">
+                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            Spiderman: Across the Spiderverse
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-heart"></i>
+                            <h3>20k</h3><br>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>8.7/10</h3><br>
+                            <i class="fa-solid fa-clock"></i>
+                            <h3>3h</h3>
+                        </div>
+                        <div class="details2">
+                            <h3>English</h3>
+                            <h3>Hindi (Dub)</h3>
+                            <h3>4DX</h3>
+                            <h3>3D</h3>
+                            <h3>2D</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="card-wrapper">
+                    <div class="card">
+                        <div class="poster">
+                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            Spiderman: Across the Spiderverse
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-heart"></i>
+                            <h3>20k</h3><br>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>8.7/10</h3><br>
+                            <i class="fa-solid fa-clock"></i>
+                            <h3>3h</h3>
+                        </div>
+                        <div class="details2">
+                            <h3>English</h3>
+                            <h3>Hindi (Dub)</h3>
+                            <h3>4DX</h3>
+                            <h3>3D</h3>
+                            <h3>2D</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="card-wrapper">
+                    <div class="card">
+                        <div class="poster">
+                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            Spiderman: Across the Spiderverse
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-heart"></i>
+                            <h3>20k</h3><br>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>8.7/10</h3><br>
+                            <i class="fa-solid fa-clock"></i>
+                            <h3>3h</h3>
+                        </div>
+                        <div class="details2">
+                            <h3>English</h3>
+                            <h3>Hindi (Dub)</h3>
+                            <h3>4DX</h3>
+                            <h3>3D</h3>
+                            <h3>2D</h3>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    
 
     <footer>
         <div class="left">

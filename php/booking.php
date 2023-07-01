@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TixSee | Sign Up</title>
+    <title>TixSee | Login</title>
     <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -19,54 +19,48 @@
             <ul class="nav-links">
                 <li><a href="movies.php"><i class="fa-solid fa-ticket"></i>Movies</a></li>
                 <li><a href=""><i class="fa-solid fa-calendar"></i>Events</a></li>
+                <li><a href="signup.php"><i class="fa-solid fa-user"></i>Sign Up/ Login</a></li>
             </ul>
         </div>
     </nav>
 
-    <div id="profile" class="signup">
+    <div id="profile" class="booking">
+
         <form action="" method="post">
 
-            
-            <legend><h3>The journey begins!</h3>Create an account</legend>
+            <legend><h3>Amazing choice! </h3>Let's book your Tix</legend>
             <div class="form-group-wrapper">
-                <div class="name-group form-group">
-                    <i class="fa-solid fa-user"></i>
-                    <label for="funame">First Name</label>
-                    <input type="text" name="funame" value="" id="funame">
-                </div>
-                <div class="name-group form-group">
-                    <i class="fa-solid fa-user"></i>
-                    <label for="luname">Last Name</label>
-                    <input type="text" name="luname" value="" id="luname">
-                </div>
                 <div class="name-group form-group">
                     <i class="fa-solid fa-envelope"></i>
                     <label for="uemail">Email</label>
                     <input type="email" name="uemail" value="" id="uemail">
                 </div>
                 <div class="name-group form-group">
-                    <i class="fa-solid fa-phone"></i>
-                    <label for="uphone">Mobile No</label>
-                    <input type="text" name="uphone" value="" id="uphone">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <label for="uloc">Location</label>
+                    <select name="uloc" id="uloc">
+                    <option value="binny">Choose Cinema location</option>
+                        <option value="central">INOX Central Mall, JP Nagar</option>
+                        <option value="swagath">INOX Swagath Garuda, Jayanagar</option>
+                        <option value="binny">Cinepolis Lulu Mall</option>
+                        <option value="swagath">PVR Vega City, Bannerghatta Road</option>
+                    </select>
                 </div>
-                <div class="name-group form-group">
-                    <i class="fa-solid fa-cake"></i>
-                    <label for="udate">Date of Birth</label>
-                    <input type="date" name="udate" value="" id="udate">
-                </div>
-                <div class="name-group form-group">
-                    <i class="fa-solid fa-lock"></i>
-                    <label for="uphone">Password</label>
-                    <input type="password" name="upass" value="" id="upass">
+                <div class="seat-group form-group">
+                    <label for="ubook"><i class="fa-solid fa-user"></i> Choose your seats</label>
+                    <div class="seat-set-group form-group">
+                        <div class="left-group"></div>
+                        <div class="right-group"></div>
+                        <div class="middle-group"></div>
+                    </div>
+                    <div class="screen"></div>
+                    <h2 class="screen-text">Screen</h2>
                 </div>
                 <div class="bottom">
                     <div class="button-group form-group">
-                        <i class="fa-solid fa-right-to-bracket"></i>
-                        <div>Sign Up</div>
+                        <i class="fa-solid fa-sharp fa-ticket"></i>
+                        <div>Book Tix</div>
                     </div>
-                    <h1 class="bottom-text">
-                        Already have an account? <a href="login.php">Login</a>
-                    </h1>
                 </div>
 
             
@@ -74,6 +68,33 @@
             
 
         </form>
+
+        <a href="#" class="card-wrapper">
+                    <div class="card">
+                        <div class="poster">
+                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            Spiderman: Across the Spiderverse
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-heart"></i>
+                            <h3>20k</h3><br>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>8.7/10</h3><br>
+                            <i class="fa-solid fa-clock"></i>
+                            <h3>3h</h3>
+                        </div>
+                        <div class="details2">
+                            <h3>English</h3>
+                            <h3>Hindi (Dub)</h3>
+                            <h3>4DX</h3>
+                            <h3>3D</h3>
+                            <h3>2D</h3>
+                        </div>
+                    </div>
+                </a>
+
     </div>
 
     <footer>

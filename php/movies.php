@@ -522,7 +522,7 @@
             </div>
         </div>
 
-        <br><br><h1><i class="fa-solid fa-clapperboard"></i> Upcoming Films</h1>
+        <br><br><h1><i class="fa-solid fa-clapperboard"></i> Upcoming Movies</h1>
         <div class="wrapper-wrapper upcoming">
             <div class="description">
             <div class="button-forward button-group">
@@ -533,30 +533,6 @@
                 </div>
             </div>
             <div class="wrapper">
-
-                <a href="" class="card-wrapper">
-                    <div class="card">
-                        <div class="poster">
-                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
-                        </div>
-                        <div class="title">
-                            Spiderman: Across the Spiderverse
-                        </div>
-                        <div class="details">
-                            <i class="fa-solid fa-eye"></i>
-                            <h3>20k</h3><br>
-                            <i class="fa-solid fa-calendar"></i>
-                            <h3>31/05/23</h3><br>
-                        </div>
-                        <div class="details2">
-                            <h3>English</h3>
-                            <h3>Hindi (Dub)</h3>
-                            <h3>4DX</h3>
-                            <h3>3D</h3>
-                            <h3>2D</h3>
-                        </div>
-                    </div>
-                </a>
 
                 <a href="" class="card-wrapper">
                     <div class="card">

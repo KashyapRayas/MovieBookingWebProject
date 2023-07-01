@@ -227,13 +227,13 @@ nav a:hover {
 
         & h3 > span {
             font-size: 1.3rem;
-            font-weight: 500;
+            font-weight: 600;
             color: rgb(125, 56, 171);
         }
 
         & h1 {
             font-size: 4.5rem;
-            font-weight: 500;
+            font-weight: 600;
             line-height: 1em;
             margin: 0;
         }
@@ -276,7 +276,7 @@ nav a:hover {
 
 }
 
-#released {
+#released, #upcoming {
     position: relative;
     width: 100%;
     height: max-content;
@@ -355,6 +355,7 @@ nav a:hover {
             border-top: 0.2em solid black;
             border-right: 0.2em solid black;
             border-bottom: 0.2em solid black;
+            position: relative;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -534,6 +535,7 @@ nav a:hover {
     border-bottom: 0.3em solid black;
     box-sizing: border-box;
     padding: 2em 1em 4em 2em;
+    gap: 2em;
 
     & form {
         display: flex;
@@ -620,8 +622,31 @@ nav a:hover {
                 border: 0.1em solid black;
             }
 
+            & input[type="number"] {
+                width: 20vw;
+                border-radius: 0.5em;
+                box-sizing: border-box;
+                padding: 0.2em 1em;
+                font-size: 1.2rem;
+                border: 0.1em solid black;
+            }
+
+            & select {
+                width: 20vw;
+                border-radius: 0.5em;
+                box-sizing: border-box;
+                padding: 0.2em 1em;
+                font-size: 1.2rem;
+                border: 0.1em solid black;
+            }
+
 
             & input[type="text"]:focus-visible {
+                border: 0.1em solid rgb(125, 56, 171) !important;
+                background-color: aliceblue;
+            }
+
+            & select:focus-visible {
                 border: 0.1em solid rgb(125, 56, 171) !important;
                 background-color: aliceblue;
             }
@@ -640,7 +665,101 @@ nav a:hover {
                 border: 0.1em solid rgb(125, 56, 171) !important;
                 background-color: aliceblue;
             }
+        }
 
+        .seat-group {
+            flex-direction: column;
+        }
+
+        .seat-set-group {
+            display: grid;
+            grid-template-columns: 1fr 0.2fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            width: max-content;
+            height: max-content;
+            padding-bottom: 1em;
+            
+
+            .left-group {
+                display: grid;
+                grid-column-start: 1;
+                grid-column-end: 2;
+                height: max-content;
+                grid-template-columns: repeat(8, 1fr);
+                gap: 0.5em;
+
+                .seat {
+                    width: 1em;
+                    height: 1em;
+                    border-radius: 0.2em;
+                    background-color: rgb(214, 173, 241);
+                    transition: 0.2s all ease-in-out;
+                    cursor: pointer;
+                }
+                
+            }
+
+
+
+            .right-group {
+                display: grid;
+                grid-column-start: 3;
+                grid-column-end: 4;
+                height: max-content;
+                grid-template-columns: repeat(8, 1fr);
+                gap: 0.5em;
+                
+
+                .seat {
+                    width: 1em;
+                    height: 1em;
+                    border-radius: 0.2em;
+                    background-color: rgb(214, 173, 241);
+                    transition: 0.2s all ease-in-out;
+                    cursor: pointer;
+                }
+
+            }
+
+            .middle-group {
+                display: grid;
+                grid-row-start: 2;
+                grid-row-end: 3;
+                grid-column-start: 1;
+                grid-column-end: 4;
+                height: max-content;
+                grid-template-columns: repeat(20, 1fr);
+                gap: 0.5em;
+
+                .seat {
+                    width: 1em;
+                    height: 1em;
+                    border-radius: 0.2em;
+                    background-color: rgb(214, 173, 241);
+                    transition: 0.2s all ease-in-out;
+                    cursor: pointer;
+                }
+            }
+
+            .seat:hover {
+                background-color: rgb(125, 56, 171);
+            }
+
+        }
+
+        .screen {
+            width: 100%;
+            background-color: rgb(125, 56, 171);
+            height: 0.8em;
+            border-top: 1em solid white;
+            border-radius: 1em;
+        }
+
+        .screen-text {
+            padding: 0;
+            margin: 0;
+            font-size: 1.3rem;
+            font-weight: 400;
         }
 
         .button-group {
@@ -664,6 +783,103 @@ nav a:hover {
 
     }
 
+    .card-wrapper {
+        display: flex;
+        width: max-content;
+        height: max-content;
+        box-shadow: -0.4em 0.4em black;
+        transform: translate(0.4em, 0.4em);
+        transition: 0.3s all ease-out;
+        border-radius: 2em;
+        cursor: pointer;
+        text-decoration: none;
+
+        .card {
+
+            width: 15em;
+            height: 25em;
+            background-color: white;
+            border: 0.2em solid black;
+            display: flex;
+            flex-direction: column;
+            padding: 1em 1em;
+            border-radius: 2em;
+        
+
+            .title {
+                padding-top: 0.7em;
+                width: 100%;
+                font-size: 1.3rem;
+                font-weight: 400;
+                line-height: 1.1em;
+                color: black;
+                padding-bottom: 0.2em;
+            }
+
+            .poster {
+                height: 80%;
+                overflow: hidden;
+                border-radius: 1em;
+
+                & img {
+                    width: 100%;
+                }
+
+            }
+
+            .details {
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 0.3em;
+                padding-bottom: 0.3em;
+                
+                
+                & h3 {
+                    margin: 0;
+                    font-weight: 400;
+                    color: rgb(125, 56, 171);
+                }
+
+                & i {
+                    color: rgb(125, 56, 171);
+                }
+
+            }
+
+            .details2 {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                gap: 0.3em;
+                flex-wrap: wrap;
+
+                & h3 {
+                    margin: 0;
+                    font-weight: 400;
+                    padding: 0.2em 0.7em;
+                    background-color: rgb(125, 56, 171);
+                    color: white;
+                    border-radius: 0.5em;
+                    font-size: 0.9rem;
+                }
+
+            }
+
+        }
+        
+    }
+    .card-wrapper:hover {
+        transform: translate(-0.4em, 0.8em);
+        box-shadow: -0em 0em black;
+    }
+
+}
+
+.booking {
+    align-items: start !important;
+    gap: 3em !important;
 }
 
 .signup {
