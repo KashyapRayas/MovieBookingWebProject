@@ -74,7 +74,7 @@
             </div>
             <div class="wrapper">
 
-                <a href="" class="card-wrapper">
+                <a href="booking.php" class="card-wrapper">
                     <div class="card">
                         <div class="poster">
                             <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
@@ -794,10 +794,10 @@
         <div class="middle">
             <ul>
                 <p>Useful Links</p>
-                <li><i class="fa-solid fa-up-right-from-square"></i><a href="">In Theatres</a></li>
-                <li><i class="fa-solid fa-up-right-from-square"></i><a href="">Upcoming Movies</a></li>
+                <li><i class="fa-solid fa-up-right-from-square"></i><a href="movies.php">In Theatres</a></li>
+                <li><i class="fa-solid fa-up-right-from-square"></i><a href="movies.php">Upcoming Movies</a></li>
                 <li><i class="fa-solid fa-up-right-from-square"></i><a href="">Events</a></li>
-                <li><i class="fa-solid fa-up-right-from-square"></i><a href="">Profile</a></li>
+                <li><i class="fa-solid fa-up-right-from-square"></i><a href="signup.php">Sign Up/Login</a></li>
             </ul>
         </div>
         <div class="right">

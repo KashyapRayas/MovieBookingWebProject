@@ -47,7 +47,7 @@
                     </select>
                 </div>
                 <div class="seat-group form-group">
-                    <label for="ubook"><i class="fa-solid fa-user"></i> Choose your seats</label>
+                    <label for="ubook"><i class="fa-solid fa-user-group"></i> Choose your seats</label>
                     <div class="seat-set-group form-group">
                         <div class="left-group"></div>
                         <div class="right-group"></div>
@@ -109,10 +109,10 @@
         <div class="middle">
             <ul>
                 <p>Useful Links</p>
-                <li><i class="fa-solid fa-up-right-from-square"></i><a href="">In Theatres</a></li>
-                <li><i class="fa-solid fa-up-right-from-square"></i><a href="">Upcoming Movies</a></li>
+                <li><i class="fa-solid fa-up-right-from-square"></i><a href="movies.php">In Theatres</a></li>
+                <li><i class="fa-solid fa-up-right-from-square"></i><a href="movies.php">Upcoming Movies</a></li>
                 <li><i class="fa-solid fa-up-right-from-square"></i><a href="">Events</a></li>
-                <li><i class="fa-solid fa-up-right-from-square"></i><a href="">Profile</a></li>
+                <li><i class="fa-solid fa-up-right-from-square"></i><a href="signup.php">Sign Up/Login</a></li>
             </ul>
         </div>
         <div class="right">

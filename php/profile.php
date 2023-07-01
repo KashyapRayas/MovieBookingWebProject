@@ -77,10 +77,10 @@
         <div class="middle">
             <ul>
                 <p>Useful Links</p>
-                <li><i class="fa-solid fa-up-right-from-square"></i><a href="">In Theatres</a></li>
-                <li><i class="fa-solid fa-up-right-from-square"></i><a href="">Upcoming Movies</a></li>
+                <li><i class="fa-solid fa-up-right-from-square"></i><a href="movies.php">In Theatres</a></li>
+                <li><i class="fa-solid fa-up-right-from-square"></i><a href="movies.php">Upcoming Movies</a></li>
                 <li><i class="fa-solid fa-up-right-from-square"></i><a href="">Events</a></li>
-                <li><i class="fa-solid fa-up-right-from-square"></i><a href="">Profile</a></li>
+                <li><i class="fa-solid fa-up-right-from-square"></i><a href="signup.php">Sign Up/Login</a></li>
             </ul>
         </div>
         <div class="right">
