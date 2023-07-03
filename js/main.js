@@ -13,6 +13,21 @@ const middle_seats = document.querySelector('.seat-set-group .middle-group')
 const left_seats_no = 24
 const right_seats_no = 24
 const middle_seats_no = 80
+const darkmodeBtn = document.querySelector('.darkmode-btn')
+let darkmodeStatus = false
+
+darkmodeBtn.addEventListener('click', ()=>{
+    if(darkmodeStatus) {
+        console.log('switched to light')
+        darkmodeStatus = false
+        document.body.classList.remove('dark-mode')
+    }
+    else {
+        console.log('switched to dark')
+        darkmodeStatus = true
+        document.body.classList.add('dark-mode')
+    }    
+})
 
 function marqueeScroll() {
     const marquee_anime = anime.timeline({

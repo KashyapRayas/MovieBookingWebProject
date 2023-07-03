@@ -5,6 +5,65 @@
     scroll-behavior: smooth;
 }
 
+:root {
+    --primary-color: rgb(125, 56, 171);
+    --link-purple: rgb(125, 56, 171);
+
+    --footer-link: rgb(14, 14, 14);
+    --footer-headings: rgb(255, 255, 255);
+    --footer-tix: rgb(14, 14, 14);
+    --footer-see: rgb(255, 255, 255); 
+
+    --nav-bg: rgb(125, 56, 171);
+    --nav-btn: rgb(255, 255, 255);
+    --nav-font: rgb(14, 14, 14);
+
+    --home-btn-bg: rgb(125, 56, 171);
+    --home-btn-font: rgb(255, 255, 255);
+    --home-btn-bor: rgb(14, 14, 14);
+
+    --card-bg: rgb(255, 255, 255);
+    --card-bor: rgb(14, 14, 14);
+    --card-title: rgb(14, 14, 14);
+    --card-details-bg: rgb(125, 56, 171);
+    --card-details-font: rgb(255, 255, 255);
+
+    --input-bg: rgb(255, 255, 255);
+    --input-bor: rgb(14, 14, 14);
+    --input-font: rgb(14, 14, 14);
+    --input-i: rgb(125, 56, 171);
+
+    --black: rgb(14, 14, 14);
+    --white: rgb(255, 255, 255);
+}
+
+.dark-mode {
+    --primary-color: rgb(125, 56, 171);
+    --link-purple: rgb(214, 173, 241);
+
+    --nav-bg: rgb(125, 56, 171);
+    --nav-btn: rgb(255, 255, 255);
+    --nav-font: rgb(14, 14, 14);
+
+    --home-btn-bg: rgb(255, 255, 255);
+    --home-btn-font: rgb(14, 14, 14);
+    --home-btn-bor: rgb(125, 56, 171);
+
+    --card-bg: rgb(125, 56, 171);
+    --card-bor: rgb(255, 255, 255);
+    --card-title: rgb(255, 255, 255);
+    --card-details-bg: rgb(14, 14, 14);
+    --card-details-font: rgb(255, 255, 255);
+
+    --input-bg: rgb(125, 56, 171);
+    --input-bor: rgb(255, 255, 255);
+    --input-font: rgb(255, 255, 255);
+    --input-i: rgb(14, 14, 14);
+    
+    --white: rgb(14, 14, 14);
+    --black: rgb(255, 255, 255);
+}
+
 ::-webkit-scrollbar {
     width: 0.8em;
   }
@@ -15,9 +74,9 @@
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: rgb(125, 56, 171);
+    background-color: var(--primary-color);
     border-radius: 2em;
-    border: 0.2em solid white;
+    border: 0.2em solid var(--white);
   }
 
 html {
@@ -36,6 +95,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: var(--white);
 }
 
 nav {
@@ -44,9 +104,8 @@ nav {
     width: 100%;
     height: max-content;
     display: block;
-    /* background-color: white; */
-    background-color: rgb(125, 56, 171);
-    border-bottom: 0.3em solid black;
+    background-color: var(--nav-bg);
+    border-bottom: 0.3em solid var(--black);
 
     .nav-wrapper {
         display: flex;
@@ -65,24 +124,25 @@ nav {
             gap: 0.5em;
             cursor: pointer;
             width: max-content;
-            background-color: white;
+            background-color: var(--nav-btn);
             padding: 0.5em 1.3em;
-            border: 0.15em solid black;
+            border: 0.15em solid var(--nav-font);
             border-radius: 1em;
-            box-shadow: -0.25em 0.25em black;
-            & img {
+            box-shadow: -0.25em 0.25em var(--nav-font);
+            & svg {
                 width: 2em;
                 height: fit-content;
                 margin: 0;
-                transform: translateY(0.2em);
+                fill: var(--nav-font);
             }
             & h1 {
+                color: var(--nav-font);
                 margin: 0;
-                font-size: 1.8rem;
+                font-size: 2rem;
                 font-weight: 700;
             }
             & span {
-                color:rgb(125, 56, 171);
+                color:var(--primary-color);
             }
         }
 
@@ -122,22 +182,22 @@ nav a {
     height: max-content;
     padding: 0.5em 1.3em;
     transition: 0.3s all ease-out;
-    border: 0.15em solid black;
+    border: 0.15em solid var(--nav-font);
     border-radius: 1em;
-    box-shadow: -0.25em 0.25em black;
+    box-shadow: -0.25em 0.25em var(--nav-font);
     transform: translate(0.3em, 0.3em);
-    color: black;
-    background-color: white;
+    color: var(--nav-font);
+    background-color: var(--nav-btn);
 
     & i {
         padding-right: 0.5em;
-        color: rgb(125, 56, 171);
+        color: var(--primary-color);
     }
 }
 
 nav a:hover {
     transform: translate(-0.3em, 0.6em);
-    box-shadow: -0.0em 0.0em black;
+    box-shadow: -0.0em 0.0em var(--nav-font);
 }
 
 @keyframes spideyMotion {
@@ -168,17 +228,17 @@ nav a:hover {
     position: relative;
     width: 100%;
     height: 60vh;
-    background-color: white;
+    background-color: var(--white);
     display: flex;
     align-items: center;
-    border-bottom: 0.3em solid black;
+    border-bottom: 0.3em solid var(--black);
     box-sizing: border-box;
 
     .hero-wrapper {
         width: 50%;
         height: 100%;
         position: relative;
-        border-left: 0.3em solid black;
+        border-left: 0.3em solid var(--black);
 
         & img {
             position: absolute;
@@ -228,7 +288,7 @@ nav a:hover {
         & h3 > span {
             font-size: 1.3rem;
             font-weight: 600;
-            color: rgb(125, 56, 171);
+            color: var(--primary-color);
         }
 
         & h1 {
@@ -236,15 +296,17 @@ nav a:hover {
             font-weight: 600;
             line-height: 1em;
             margin: 0;
+            color: var(--black);
         }
 
         & h1 > span {
-            color: rgb(125, 56, 171);
+            color: var(--primary-color);
         }
 
         & h3 {
             font-size: 1.3rem;
             font-weight: 400;
+            color: var(--black)
         }
 
         & a {
@@ -254,13 +316,13 @@ nav a:hover {
             height: max-content;
             padding: 0.5em 1.3em;
             transition: 0.3s all ease-out;
-            border: 0.15em solid black;
+            border: 0.15em solid var(--black);
             border-radius: 1em;
-            box-shadow: -0.25em 0.25em black;
+            box-shadow: -0.25em 0.25em var(--home-btn-bor);
             transform: translate(0.3em, 0.3em);
-            color: white;
+            color: var(--home-btn-font);
             font-size: 1.3rem;
-            background-color: rgb(125, 56, 171);
+            background-color: var(--home-btn-bg);
 
             & i {
                 padding-right: 0.5em;
@@ -270,7 +332,7 @@ nav a:hover {
 
         & a:hover {
             transform: translate(-0.3em, 0.6em);
-            box-shadow: -0.0em 0.0em black;
+            box-shadow: -0.0em 0.0em var(--home-btn-bor);
         }    
     }
 
@@ -281,8 +343,8 @@ nav a:hover {
     width: 100%;
     height: max-content;
     overflow: hidden;
-    /* background-color: rgb(125, 56, 171); */
-    color: white;
+    /* background-color: var(--primary-color); */
+    color: var(--white);
     padding: 0em 1em 4em 0em;
 
     
@@ -293,7 +355,7 @@ nav a:hover {
         margin: 0;
         font-size: 3rem;
         font-weight: 500;
-        color: black;
+        color: var(--black);
         padding-bottom: 0.5em;
         padding-left: 1em;
         padding-top: 0.5em;
@@ -302,7 +364,7 @@ nav a:hover {
         gap: 0.3em;
         
         & i {
-            color: rgb(125, 56, 171);
+            color: var(--primary-color);
             font-size: 2.5rem;
         }
 
@@ -314,8 +376,8 @@ nav a:hover {
         width: 100%;
         height: max-content;
         padding: 0.5em 0em;
-        background-color: rgb(125, 56, 171);
-        border-bottom: 0.3em solid black;
+        background-color: var(--primary-color);
+        border-bottom: 0.3em solid var(--black);
         overflow: hidden;
 
         .marquee-scroll {
@@ -334,7 +396,7 @@ nav a:hover {
             }
 
             & h1 {
-                color: white;
+                color: var(--white);
                 font-size: 1.3rem;
                 margin: 0;
                 padding-right: 1em;
@@ -352,16 +414,16 @@ nav a:hover {
         gap: 2em;
 
         .description {
-            border-top: 0.2em solid black;
-            border-right: 0.2em solid black;
-            border-bottom: 0.2em solid black;
+            border-top: 0.2em solid var(--black);
+            border-right: 0.2em solid var(--black);
+            border-bottom: 0.2em solid var(--black);
             position: relative;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
             width: 10em;
-            background-color: rgb(125, 56, 171);
+            background-color: var(--primary-color);
             border-radius: 0em 2em 2em 0em;
             gap: 3em;
 
@@ -374,24 +436,25 @@ nav a:hover {
                 height: max-content;
                 padding: 0.8em 1.6em;
                 transition: 0.3s all ease-out;
-                border: 0.15em solid black;
+                border: 0.15em solid var(--nav-font);
                 border-radius: 1em;
-                box-shadow: -0.25em 0.25em black;
+                box-shadow: -0.25em 0.25em var(--nav-font);
                 transform: translate(0.3em, 0.3em);
-                color: rgb(125, 56, 171);
-                background-color: white;
+                color: var(--nav-font);
+                background-color: var(--nav-btn);
                 gap: 1em;
                 cursor: pointer;
 
                 & i {
                     font-size: 2rem;
+                    color: var(--nav-bg);
                 }
 
             }
 
             .button-group:hover {
                 transform: translate(-0.3em, 0.6em);
-                box-shadow: 0.0em 0.0em black;
+                box-shadow: 0.0em 0.0em var(--nav-font);
             }
 
         }
@@ -412,7 +475,7 @@ nav a:hover {
       }
       
       ::-webkit-scrollbar-thumb {
-        background-color: rgb(125, 56, 171);
+        background-color: var(--primary-color);
         border-radius: 2em;
         border: none;
       }
@@ -426,13 +489,13 @@ nav a:hover {
         padding-left: 1em;
         overflow-x: scroll;
         scroll-behavior: smooth;
-        background-color: white;
+        background-color: var(--white);
 
         .card-wrapper {
             display: flex;
             width: max-content;
             height: max-content;
-            box-shadow: -0.4em 0.4em black;
+            box-shadow: -0.4em 0.4em var(--black);
             transform: translate(0.4em, 0.4em);
             transition: 0.3s all ease-out;
             border-radius: 2em;
@@ -443,8 +506,8 @@ nav a:hover {
 
                 width: 15em;
                 height: 25em;
-                background-color: white;
-                border: 0.2em solid black;
+                background-color: var(--card-bg);
+                border: 0.2em solid var(--card-bor);
                 display: flex;
                 flex-direction: column;
                 padding: 1em 1em;
@@ -457,7 +520,7 @@ nav a:hover {
                     font-size: 1.3rem;
                     font-weight: 400;
                     line-height: 1.1em;
-                    color: black;
+                    color: var(--card-title);
                     padding-bottom: 0.2em;
                 }
 
@@ -484,11 +547,11 @@ nav a:hover {
                     & h3 {
                         margin: 0;
                         font-weight: 400;
-                        color: rgb(125, 56, 171);
+                        color: var(--card-details-bg);
                     }
 
                     & i {
-                        color: rgb(125, 56, 171);
+                        color: var(--card-details-bg);
                     }
 
                 }
@@ -504,8 +567,8 @@ nav a:hover {
                         margin: 0;
                         font-weight: 400;
                         padding: 0.2em 0.7em;
-                        background-color: rgb(125, 56, 171);
-                        color: white;
+                        background-color: var(--card-details-bg);
+                        color: var(--card-details-font);
                         border-radius: 0.5em;
                         font-size: 0.9rem;
                     }
@@ -517,7 +580,7 @@ nav a:hover {
         }
         .card-wrapper:hover {
             transform: translate(-0.4em, 0.8em);
-            box-shadow: -0em 0em black;
+            box-shadow: -0em 0em var(--black);
         }
     }
 
@@ -528,11 +591,11 @@ nav a:hover {
     width: 100%;
     height: max-content;
     /* height: 100%; */
-    background-color: aliceblue;
+    background-color: var(--white);
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 0.3em solid black;
+    border-bottom: 0.3em solid var(--black);
     box-sizing: border-box;
     padding: 2em 1em 4em 2em;
     gap: 2em;
@@ -547,11 +610,12 @@ nav a:hover {
             font-size: 2.3rem;
             font-weight: 500;
             width: max-content;
+            color: var(--black);
 
             & h3 {
                 font-size: 1.3rem;
                 font-weight: 500;
-                color: rgb(125, 56, 171);
+                color: var(--link-purple);
                 padding: 0;
                 margin: 0;
             }
@@ -573,13 +637,17 @@ nav a:hover {
             height: max-content;
             padding: 0.8em 1.6em;
             transition: 0.3s all ease-out;
-            border: 0.15em solid black;
+            border: 0.15em solid var(--input-bor);
             border-radius: 1em;
-            box-shadow: -0.25em 0.25em black;
+            box-shadow: -0.25em 0.25em var(--input-bor);
             transform: translate(0.3em, 0.3em);
-            color: rgb(125, 56, 171);
-            background-color: white;
+            color: var(--input-font);
+            background-color: var(--white);
             gap: 1em;
+
+            & i {
+                color: var(--primary-color);
+            }
 
             & label {
                 font-size: 1.3rem;
@@ -592,7 +660,7 @@ nav a:hover {
                 box-sizing: border-box;
                 padding: 0.2em 1em;
                 font-size: 1.2rem;
-                border: 0.1em solid black;
+                border: 0.1em solid var(--home-btn-bor);
             }
 
             & input[type="email"] {
@@ -601,7 +669,7 @@ nav a:hover {
                 box-sizing: border-box;
                 padding: 0.2em 1em;
                 font-size: 1.2rem;
-                border: 0.1em solid black;
+                border: 0.1em solid var(--home-btn-bor);
             }
 
             & input[type="date"] {
@@ -610,7 +678,7 @@ nav a:hover {
                 box-sizing: border-box;
                 padding: 0.2em 1em;
                 font-size: 1.2rem;
-                border: 0.1em solid black;
+                border: 0.1em solid var(--home-btn-bor);
             }
 
             & input[type="password"] {
@@ -619,7 +687,7 @@ nav a:hover {
                 box-sizing: border-box;
                 padding: 0.2em 1em;
                 font-size: 1.2rem;
-                border: 0.1em solid black;
+                border: 0.1em solid var(--home-btn-bor);
             }
 
             & input[type="number"] {
@@ -628,7 +696,7 @@ nav a:hover {
                 box-sizing: border-box;
                 padding: 0.2em 1em;
                 font-size: 1.2rem;
-                border: 0.1em solid black;
+                border: 0.1em solid var(--home-btn-bor);
             }
 
             & input[type="submit"] {
@@ -639,7 +707,7 @@ nav a:hover {
                 cursor: pointer;
                 overflow: hidden;
                 outline: none;
-                color: white;
+                color: var(--home-btn-font);
             }
 
             & select {
@@ -648,35 +716,61 @@ nav a:hover {
                 box-sizing: border-box;
                 padding: 0.2em 1em;
                 font-size: 1.2rem;
-                border: 0.1em solid black;
+                border: 0.1em solid var(--black);
             }
 
 
             & input[type="text"]:focus-visible {
-                border: 0.1em solid rgb(125, 56, 171) !important;
+                border: 0.1em solid var(--primary-color) !important;
                 background-color: aliceblue;
             }
 
             & select:focus-visible {
-                border: 0.1em solid rgb(125, 56, 171) !important;
+                border: 0.1em solid var(--primary-color) !important;
                 background-color: aliceblue;
             }
 
             & input[type="email"]:focus-visible {
-                border: 0.1em solid rgb(125, 56, 171) !important;
+                border: 0.1em solid var(--primary-color) !important;
                 background-color: aliceblue;
             }
 
             & input[type="date"]:focus-visible {
-                border: 0.1em solid rgb(125, 56, 171) !important;
+                border: 0.1em solid var(--primary-color) !important;
                 background-color: aliceblue;
             }
 
             & input[type="password"]:focus-visible {
-                border: 0.1em solid rgb(125, 56, 171) !important;
+                border: 0.1em solid var(--primary-color) !important;
                 background-color: aliceblue;
             }
         }
+
+        .submit-button-group {
+                display: block;
+                text-decoration: none;
+                width: max-content;
+                height: max-content;
+                padding: 0.5em 1.3em;
+                transition: 0.3s all ease-out;
+                border: 0.15em solid var(--black);
+                border-radius: 1em;
+                box-shadow: -0.25em 0.25em var(--home-btn-bor);
+                transform: translate(0.3em, 0.3em);
+                color: var(--home-btn-font);
+                font-size: 1.3rem;
+                background-color: var(--home-btn-bg);
+    
+                & i {
+                    padding-right: 0.5em;
+                    color: var(--home-btn-font);
+                }
+            }
+
+        .submit-button-group:hover {
+            transform: translate(-0.3em, 0.6em);
+            box-shadow: -0.0em 0.0em var(--home-btn-bor);
+        } 
 
         .seat-group {
             flex-direction: column;
@@ -753,16 +847,16 @@ nav a:hover {
             }
 
             .seat:hover {
-                background-color: rgb(125, 56, 171);
+                background-color: var(--primary-color);
             }
 
         }
 
         .screen {
             width: 100%;
-            background-color: rgb(125, 56, 171);
+            background-color: var(--primary-color);
             height: 0.8em;
-            border-top: 1em solid white;
+            border-top: 1em solid var(--white);
             border-radius: 1em;
         }
 
@@ -775,21 +869,21 @@ nav a:hover {
 
         .button-group {
             cursor: pointer;
-            background-color: rgb(125, 56, 171);
+            background-color: var(--primary-color);
         }
 
         .button-group i {
-            color: white;
+            color: var(--white);
         }
 
         .button-group div {
             font-size: 1.3rem;
-            color: white;
+            color: var(--white);
         }
 
         .button-group:hover {
             transform: translate(-0.3em, 0.6em);
-            box-shadow: 0.0em 0.0em black;
+            box-shadow: 0.0em 0.0em var(--black);
         }
 
     }
@@ -798,7 +892,7 @@ nav a:hover {
         display: flex;
         width: max-content;
         height: max-content;
-        box-shadow: -0.4em 0.4em black;
+        box-shadow: -0.4em 0.4em var(--black);
         transform: translate(0.4em, 0.4em);
         transition: 0.3s all ease-out;
         border-radius: 2em;
@@ -809,8 +903,8 @@ nav a:hover {
 
             width: 15em;
             height: 25em;
-            background-color: white;
-            border: 0.2em solid black;
+            background-color: var(--card-bg);
+            border: 0.2em solid var(--card-bor);
             display: flex;
             flex-direction: column;
             padding: 1em 1em;
@@ -823,7 +917,7 @@ nav a:hover {
                 font-size: 1.3rem;
                 font-weight: 400;
                 line-height: 1.1em;
-                color: black;
+                color: var(--card-title);
                 padding-bottom: 0.2em;
             }
 
@@ -850,11 +944,11 @@ nav a:hover {
                 & h3 {
                     margin: 0;
                     font-weight: 400;
-                    color: rgb(125, 56, 171);
+                    color: var(--card-details-bg);
                 }
 
                 & i {
-                    color: rgb(125, 56, 171);
+                    color: var(--card-details-bg);
                 }
 
             }
@@ -870,8 +964,8 @@ nav a:hover {
                     margin: 0;
                     font-weight: 400;
                     padding: 0.2em 0.7em;
-                    background-color: rgb(125, 56, 171);
-                    color: white;
+                    background-color: var(--card-details-bg);
+                    color: var(--card-details-font);
                     border-radius: 0.5em;
                     font-size: 0.9rem;
                 }
@@ -883,7 +977,7 @@ nav a:hover {
     }
     .card-wrapper:hover {
         transform: translate(-0.4em, 0.8em);
-        box-shadow: -0em 0em black;
+        box-shadow: -0em 0em var(--black);
     }
 
 }
@@ -897,6 +991,10 @@ nav a:hover {
     height: 70vh;
 }
 
+.signin {
+    height: 75vh !important;
+}
+
 .bottom {
     display: flex;
     gap: 1.5em;
@@ -905,10 +1003,11 @@ nav a:hover {
     & h1 {
         font-weight: 500;
         font-size: 1.3rem;
+        color: var(--black);
 
         & a {
             text-decoration: none;
-            color: rgb(125, 56, 171);
+            color: var(--link-purple);
         }
 
     }
@@ -919,11 +1018,11 @@ footer {
     width: 100%;
     height: max-content;
     display: flex;
-    background-color: white;
+    background-color: var(--nav-bg);
     /* background-color: aliceblue; */
     justify-content: space-around;
     padding: 2em 0em 2em 0em;
-    border-top: 0.5em solid black;
+    border-top: 0.5em solid var(--black);
     flex-wrap: wrap;
 
     .left {
@@ -941,16 +1040,16 @@ footer {
                 width: 2.5em;
                 height: fit-content;
                 margin: 0;
-                fill: black;
+                fill: var(--footer-tix);
             }
             & h1 {
-                color: black;
+                color: var(--footer-tix);
                 margin: 0;
                 font-size: 2.5rem;
                 font-weight: 700;
             }
             & span {
-                color: rgb(125, 56, 171);
+                color: var(--footer-see);
             }
         }
 
@@ -970,7 +1069,7 @@ footer {
             margin: 0;
 
             & i {
-                color: rgb(125, 56, 171);
+                color: var(--footer-headings);
             }
 
             & p {
@@ -979,14 +1078,16 @@ footer {
                 font-size: 2rem;
                 margin: 0;
                 font-weight: 600;
-                /* color: rgb(125, 56, 171); */
-                color: black;
+                /* color: var(--primary-color); */
+                color: var(--footer-link);
             }
 
             & li a {
                 font-size: 1.2rem;
                 padding-left: 0.3em;
                 text-decoration: none;
+                color: var(--footer-headings);
+                font-weight: 400;
             }
 
         }
@@ -1007,7 +1108,7 @@ footer {
             margin: 0;
 
             & i {
-                color: rgb(125, 56, 171);
+                color: var(--footer-headings);
             }
 
             & p {
@@ -1016,19 +1117,20 @@ footer {
                 font-size: 2rem;
                 margin: 0;
                 font-weight: 600;
-                /* color: rgb(125, 56, 171); */
-                color: black;
+                /* color: var(--primary-color); */
+                color: var(--footer-link);
             }
 
             & li a {
                 font-size: 1.2rem;
                 padding-left: 0.3em;
                 text-decoration: none;
+                color: var(--footer-headings);
+                font-weight: 400;
             }
         }
     }
 }
-
 
 
 

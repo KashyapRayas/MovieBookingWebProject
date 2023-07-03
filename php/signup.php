@@ -9,16 +9,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <nav class="elem">
+<nav class="elem">
         <div class="nav-wrapper">
             <div class="nav-logo">
-                <img src="/assets/ticketlogo.svg" alt="">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;" viewBox="0 0 4.212 5.265" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd"><defs><style type="text/css">
+   
+                </style></defs><g><path class="fil0" d="M2.68 0l0.447 0.447c-0.177,0.176 -0.176,0.462 0,0.638 0.176,0.176 0.462,0.176 0.638,0l0.447 0.446 -2.681 2.681 -0.446 -0.447c0.176,-0.176 0.176,-0.462 0,-0.638 -0.176,-0.176 -0.462,-0.176 -0.638,0l-0.447 -0.447 2.68 -2.68zm-0.306 1.072l0.766 0.766 -1.302 1.302 -0.766 -0.766 1.302 -1.302z"/></g><text x="0" y="19.212" fill="currentColor" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">Created by Deemak Daksina</text><text x="0" y="24.212" fill="currentColor" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">from the Noun Project</text></svg>
                 <h1>Tix<span>See</span></h1>
             </div>
 
             <ul class="nav-links">
                 <li><a href="movies.php"><i class="fa-solid fa-ticket"></i>Movies</a></li>
                 <li><a href=""><i class="fa-solid fa-calendar"></i>Events</a></li>
+                <li><a href="signup.php"><i class="fa-solid fa-user"></i>Sign Up/ Login</a></li>
+                <li><a href="#" class="darkmode-btn"><i class="fa-solid fa-circle-half-stroke"></i>Dark Mode</a></li>
             </ul>
         </div>
     </nav>
@@ -60,7 +64,7 @@
                     <input type="password" name="upass" value="" id="upass">
                 </div>
                 <div class="bottom">
-                    <div class="button-group form-group">
+                    <div class="submit-button-group form-group">
                         <i class="fa-solid fa-right-to-bracket"></i>
                         <input type="submit" value="Sign In">
                     </div>
