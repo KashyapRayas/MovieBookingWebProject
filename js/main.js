@@ -19,11 +19,13 @@ let darkmodeStatus = false
 darkmodeBtn.addEventListener('click', ()=>{
     if(darkmodeStatus) {
         console.log('switched to light')
+        document.querySelector('.darkmode-btn i').style.transform = 'rotate(0deg) translate(0, 0em)'
         darkmodeStatus = false
         document.body.classList.remove('dark-mode')
     }
     else {
         console.log('switched to dark')
+        document.querySelector('.darkmode-btn i').style.transform = 'rotate(180deg) translate(0.5em, 0em)'
         darkmodeStatus = true
         document.body.classList.add('dark-mode')
     }    
