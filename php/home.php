@@ -565,7 +565,7 @@
     </div>
 
     <div id="upcoming">
-        <div class="marquee elem">
+        <div class="marquee elem marquee-cs">
             <div class="marquee-scroll">
                 <i class="fa-solid fa-clapperboard"></i>
                 <h1>Coming soon</h1>
