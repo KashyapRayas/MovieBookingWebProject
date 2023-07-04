@@ -17,24 +17,58 @@ const darkmodeBtn = document.querySelector('.darkmode-btn')
 let darkmodeStatus = false
 const signBtn = document.querySelector('.sign-btn')
 
+
 if(signBtn) {
     signBtn.addEventListener('click', ()=>{
         document.querySelector('form').submit()
     })
 }
 
+function createCookie(name, value, timeInSeconds) {
+    var date = new Date();
+    date.setTime(date.getTime()+(timeInSeconds*1000));
+    var expires = "; expires="+date.toGMTString();
+    console.log(name+"="+value+expires+"; path=/")
+    document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function deleteCookie(name) {
+    document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+}
+
+function getCookie(cname) {
+    let name = cname + "=";
+    let decodedCookie = decodeURIComponent(document.cookie);
+    let ca = decodedCookie.split(';');
+    for(let i = 0; i <ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+
+window.onload = function () {
+    const isDarkModeOn = getCookie("isDarkModeOn");
+    if(isDarkModeOn === "true") document.body.classList.add("dark-mode");
+  }
+
 darkmodeBtn.addEventListener('click', ()=>{
     if(darkmodeStatus) {
-        console.log('switched to light')
-        document.querySelector('.darkmode-btn i').style.transform = 'rotate(0deg) translate(0, 0em)'
-        darkmodeStatus = false
+        // console.log('switched to light')
         document.body.classList.remove('dark-mode')
+        deleteCookie('isDarkModeOn')
+        darkmodeStatus = false
     }
     else {
-        console.log('switched to dark')
-        document.querySelector('.darkmode-btn i').style.transform = 'rotate(180deg) translate(0.5em, 0em)'
+        // console.log('switched to dark')
+        const isDarkMode = document.body.classList.toggle('dark-mode')
+        createCookie("isDarkModeOn", isDarkMode.toString(), 60 * 60 * 24);
         darkmodeStatus = true
-        document.body.classList.add('dark-mode')
     }    
 })
 

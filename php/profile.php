@@ -49,7 +49,7 @@ if (isset($_SESSION['email'])) {
 
             <ul class="nav-links">
                 <li><a href="movies.php"><i class="fa-solid fa-ticket"></i>Movies</a></li>
-                <li><a href=""><i class="fa-solid fa-calendar"></i>Events</a></li>
+                <!-- <li><a href=""><i class="fa-solid fa-calendar"></i>Events</a></li> -->
                 <li><a href="process_logout.php"><i class="fa-solid fa-user"></i>Logout</a></li>
                 <li><a href="#" class="darkmode-btn"><i class="fa-solid fa-circle-half-stroke"></i>Dark Mode</a></li>
             </ul>

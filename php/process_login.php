@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 $result = $conn->query($sql);
 
                 if ($result->num_rows > 0) {
-                    $_SESSION["email"] = $email; 
+                    $_SESSION["email"] = $email;
                     header("Location: home.php");
                     exit();
                 } else {
