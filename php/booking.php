@@ -1,10 +1,13 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TixSee | Login</title>
+    <title>TixSee | Booking</title>
     <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -21,7 +24,15 @@
             <ul class="nav-links">
                 <li><a href="movies.php"><i class="fa-solid fa-ticket"></i>Movies</a></li>
                 <li><a href=""><i class="fa-solid fa-calendar"></i>Events</a></li>
-                <li><a href="signup.php"><i class="fa-solid fa-user"></i>Sign Up/ Login</a></li>
+                <?php
+                    // Check if the user is logged in
+                    if (isset($_SESSION['email'])) {
+                        echo '<li><a href="profile.php"><i class="fa-solid fa-user"></i>Profile</a></li>';
+                    }
+                    else {
+                        echo '<li><a href="signup.php"><i class="fa-solid fa-user"></i>Sign Up/Login</a></li>';
+                    }
+                ?>
                 <li><a href="#" class="darkmode-btn"><i class="fa-solid fa-circle-half-stroke"></i>Dark Mode</a></li>
             </ul>
         </div>
@@ -61,8 +72,8 @@
                 </div>
                 <div class="bottom">
                     <div class="submit-button-group form-group">
-                        <i class="fa-solid fa-right-to-bracket"></i>
-                        <input type="submit" value="Sign In">
+                        <i class="fa-solid fa-ticket"></i>
+                        <div>Book Tix</div>
                     </div>
                 </div>
             </div>

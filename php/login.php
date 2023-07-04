@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-<nav class="elem">
+    <nav class="elem">
         <div class="nav-wrapper">
             <div class="nav-logo">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;" viewBox="0 0 4.212 5.265" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd"><defs><style type="text/css">
@@ -28,9 +31,17 @@
     </nav>
 
     <div id="profile" class="signin">
-        <form action="" method="post">
+        <form action="process_login.php" method="post">
 
-            <legend><h3>Welcome back!</h3>Login to your account</legend>
+            <legend><h3>Welcome back!</h3>Login to your account
+            <?php 
+                if(isset($_SESSION['valid'])) {
+                    $padding = "padding-bottom: 1em;";
+                    $display = $_SESSION['display'];
+                    echo "<h3 style='$padding'>$display<h3>";
+                }   
+            ?>
+            </legend>
             <div class="form-group-wrapper">
                 <div class="name-group form-group">
                     <i class="fa-solid fa-envelope"></i>
@@ -43,9 +54,9 @@
                     <input type="password" name="upass" value="" id="upass">
                 </div>
                 <div class="bottom">
-                    <div class="submit-button-group form-group">
+                    <div class="submit-button-group form-group sign-btn">
                         <i class="fa-solid fa-right-to-bracket"></i>
-                        <input type="submit" value="Login">
+                        <div>Sign In</div>
                     </div>
                     <h1 class="bottom-text">
                         Don't have an account? <a href="signup.php">Sign up!</a>

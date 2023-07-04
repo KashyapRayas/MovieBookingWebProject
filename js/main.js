@@ -15,6 +15,13 @@ const right_seats_no = 24
 const middle_seats_no = 80
 const darkmodeBtn = document.querySelector('.darkmode-btn')
 let darkmodeStatus = false
+const signBtn = document.querySelector('.sign-btn')
+
+if(signBtn) {
+    signBtn.addEventListener('click', ()=>{
+        document.querySelector('form').submit()
+    })
+}
 
 darkmodeBtn.addEventListener('click', ()=>{
     if(darkmodeStatus) {
@@ -30,6 +37,8 @@ darkmodeBtn.addEventListener('click', ()=>{
         document.body.classList.add('dark-mode')
     }    
 })
+
+
 
 function marqueeScroll() {
     const marquee_anime = anime.timeline({
@@ -79,12 +88,14 @@ if(profileEditBtn) {
             profileEditState = false
         }
         else {
+            document.querySelector('form').submit()
             inputList.forEach(input => {
                 input.disabled = true
             })
             document.querySelector('.button-group div').innerText = "Edit"
             document.querySelector('.button-group i').className = "fa-solid fa-edit"
             profileEditState = true
+            
         }
     })
 }

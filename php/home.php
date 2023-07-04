@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +12,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <?php
+        if (isset($_SESSION["message"])) {
+            $message = $_SESSION["message"];
+            $messageType = $_SESSION["message_type"];
+            unset($_SESSION["message"]);
+            unset($_SESSION["message_type"]);
+            echo '<script>
+                var message = "'. $message .'";
+                var messageType = "'. $messageType .'";
+                if (message && messageType) {
+                    alert(message);
+                }
+            </script>';
+        }
+    ?>
     <nav class="elem">
         <div class="nav-wrapper">
             <div class="nav-logo">
@@ -21,7 +39,14 @@
             <ul class="nav-links">
                 <li><a href="movies.php"><i class="fa-solid fa-ticket"></i>Movies</a></li>
                 <li><a href=""><i class="fa-solid fa-calendar"></i>Events</a></li>
-                <li><a href="signup.php"><i class="fa-solid fa-user"></i>Sign Up/ Login</a></li>
+                <?php
+                    if (isset($_SESSION['email'])) {
+                        echo '<li><a href="profile.php"><i class="fa-solid fa-user"></i>Profile</a></li>';
+                    }
+                    else {
+                        echo '<li><a href="signup.php"><i class="fa-solid fa-user"></i>Sign Up/Login</a></li>';
+                    }
+                ?>
                 <li><a href="#" class="darkmode-btn"><i class="fa-solid fa-circle-half-stroke"></i>Dark Mode</a></li>
             </ul>
         </div>
@@ -800,7 +825,14 @@
                 <li><i class="fa-solid fa-up-right-from-square"></i><a href="movies.php">In Theatres</a></li>
                 <li><i class="fa-solid fa-up-right-from-square"></i><a href="movies.php">Upcoming Movies</a></li>
                 <li><i class="fa-solid fa-up-right-from-square"></i><a href="">Events</a></li>
-                <li><i class="fa-solid fa-up-right-from-square"></i><a href="signup.php">Sign Up/Login</a></li>
+                <?php
+                    if (isset($_SESSION['email'])) {
+                        echo '<li><a href="profile.php"><i class="fa-solid fa-user"></i>Profile</a></li>';
+                    }
+                    else {
+                        echo '<li><a href="signup.php"><i class="fa-solid fa-user"></i>Sign Up/Login</a></li>';
+                    }
+                ?>
             </ul>
         </div>
         <div class="right">

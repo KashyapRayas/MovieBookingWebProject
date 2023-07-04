@@ -1,3 +1,32 @@
+<?php
+session_start();
+if (isset($_GET['logout'])) {
+    session_destroy();
+    header("Location: home.php");
+    exit();
+}
+if (isset($_SESSION['email'])) {
+    $email = $_SESSION['email'];
+    $db_host = 'localhost';
+    $db_username = 'root';
+    $db_password = '';
+    $db_name = 'movie';
+    $conn = mysqli_connect($db_host, $db_username, $db_password, $db_name);
+    if (!$conn) {
+        die("Database connection failed: " . mysqli_connect_error());
+    }
+    $sql = "SELECT * FROM users WHERE email = '$email'";
+    $result = mysqli_query($conn, $sql);
+    if ($result) {
+        $row = mysqli_fetch_assoc($result);
+        $firstName = $row['first_name'];
+        $lastName = $row['last_name'];
+        $phone = $row['mobile_no'];
+        $dateOfBirth = $row['date_of_birth'];
+    }
+    mysqli_close($conn);
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,45 +50,47 @@
             <ul class="nav-links">
                 <li><a href="movies.php"><i class="fa-solid fa-ticket"></i>Movies</a></li>
                 <li><a href=""><i class="fa-solid fa-calendar"></i>Events</a></li>
-                <li><a href="signup.php"><i class="fa-solid fa-user"></i>Sign Up/ Login</a></li>
+                <li><a href="process_logout.php"><i class="fa-solid fa-user"></i>Logout</a></li>
                 <li><a href="#" class="darkmode-btn"><i class="fa-solid fa-circle-half-stroke"></i>Dark Mode</a></li>
             </ul>
         </div>
     </nav>
 
     <div id="profile" class="profile">
-        <form action="" method="post">
+        <form action="process_profile.php" method="post">
 
             <legend>My Profile</legend>
             <div class="form-group-wrapper">
                 <div class="name-group form-group">
                     <i class="fa-solid fa-user"></i>
                     <label for="funame">First Name</label>
-                    <input type="text" name="funame" value="" id="funame" disabled>
+                    <input type="text" name="funame" value="<?php echo $firstName; ?>" id="funame" disabled>
                 </div>
                 <div class="name-group form-group">
                     <i class="fa-solid fa-user"></i>
                     <label for="luname">Last Name</label>
-                    <input type="text" name="luname" value="" id="luname" disabled>
+                    <input type="text" name="luname" value="<?php echo $lastName; ?>" id="luname" disabled>
                 </div>
                 <div class="name-group form-group">
                     <i class="fa-solid fa-envelope"></i>
                     <label for="uemail">Email</label>
-                    <input type="email" name="uemail" value="" id="uemail" disabled>
+                    <input type="email" name="uemail" value="<?php echo $email; ?>" id="uemail" disabled>
                 </div>
                 <div class="name-group form-group">
                     <i class="fa-solid fa-phone"></i>
                     <label for="uphone">Mobile No</label>
-                    <input type="text" name="uphone" value="" id="uphone" disabled>
+                    <input type="text" name="uphone" value="<?php echo $phone; ?>" id="uphone" disabled>
                 </div>
                 <div class="name-group form-group">
                     <i class="fa-solid fa-cake"></i>
                     <label for="udate">Date of Birth</label>
-                    <input type="date" name="udate" value="" id="udate" disabled>
+                    <input type="date" name="udate" value="<?php echo $dateOfBirth; ?>" id="udate" disabled>
                 </div>
-                <div class="button-group form-group">
-                    <i class="fa-solid fa-edit"></i>
-                    <div>Edit</div>
+                <div class="bottom">
+                    <div class="submit-button-group button-group form-group">
+                        <i class="fa-solid fa-edit"></i>
+                        <div>Edit</div>
+                    </div>
                 </div>
             
             </div>

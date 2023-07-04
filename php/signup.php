@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,10 +31,16 @@
     </nav>
 
     <div id="profile" class="signup">
-        <form action="" method="post">
-
-            
-            <legend><h3>The journey begins!</h3>Create an account</legend>
+        <form action="process_signup.php" method="post">
+            <legend><h3>The journey begins!</h3>Create an account
+            <?php 
+                if(isset($_SESSION['valid'])) {
+                    $padding = "padding-bottom: 1em;";
+                    $display = $_SESSION['display'];
+                    echo "<h3 style='$padding'>$display<h3>";
+                }   
+            ?>
+            </legend>
             <div class="form-group-wrapper">
                 <div class="name-group form-group">
                     <i class="fa-solid fa-user"></i>
@@ -64,9 +73,9 @@
                     <input type="password" name="upass" value="" id="upass">
                 </div>
                 <div class="bottom">
-                    <div class="submit-button-group form-group">
+                    <div class="submit-button-group form-group sign-btn">
                         <i class="fa-solid fa-right-to-bracket"></i>
-                        <input type="submit" value="Sign In">
+                        <div>Sign Up</div>
                     </div>
                     <h1 class="bottom-text">
                         Already have an account? <a href="login.php">Login</a>

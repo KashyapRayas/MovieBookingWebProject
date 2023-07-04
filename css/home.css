@@ -466,9 +466,6 @@ nav a:hover {
 
     }
 
-
-
-
     ::-webkit-scrollbar {
         width: 0.8em;
         height: 0.5em;
@@ -666,6 +663,7 @@ nav a:hover {
                 padding: 0.2em 1em;
                 font-size: 1.2rem;
                 border: 0.1em solid var(--home-btn-bor);
+                background-color: white;
             }
 
             & input[type="email"] {
@@ -675,6 +673,7 @@ nav a:hover {
                 padding: 0.2em 1em;
                 font-size: 1.2rem;
                 border: 0.1em solid var(--home-btn-bor);
+                background-color: white;
             }
 
             & input[type="date"] {
@@ -684,6 +683,7 @@ nav a:hover {
                 padding: 0.2em 1em;
                 font-size: 1.2rem;
                 border: 0.1em solid var(--home-btn-bor);
+                background-color: white;
             }
 
             & input[type="password"] {
@@ -693,6 +693,7 @@ nav a:hover {
                 padding: 0.2em 1em;
                 font-size: 1.2rem;
                 border: 0.1em solid var(--home-btn-bor);
+                background-color: white;
             }
 
             & input[type="number"] {
@@ -702,6 +703,7 @@ nav a:hover {
                 padding: 0.2em 1em;
                 font-size: 1.2rem;
                 border: 0.1em solid var(--home-btn-bor);
+                background-color: white;
             }
 
             & input[type="submit"] {
@@ -752,7 +754,8 @@ nav a:hover {
         }
 
         .submit-button-group {
-                display: block;
+                cursor: pointer;
+                display: flex;
                 text-decoration: none;
                 width: max-content;
                 height: max-content;
@@ -764,10 +767,9 @@ nav a:hover {
                 transform: translate(0.3em, 0.3em);
                 color: var(--home-btn-font);
                 font-size: 1.3rem;
-                background-color: var(--home-btn-bg);
+                background-color: var(--home-btn-bg) !important;
     
                 & i {
-                    padding-right: 0.5em;
                     color: var(--home-btn-font);
                 }
             }
