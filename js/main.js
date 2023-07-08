@@ -58,7 +58,8 @@ window.onload = function () {
   }
 
 darkmodeBtn.addEventListener('click', ()=>{
-    if(darkmodeStatus) {
+    const isDarkModeOn = getCookie("isDarkModeOn");
+    if(isDarkModeOn) {
         // console.log('switched to light')
         document.body.classList.remove('dark-mode')
         deleteCookie('isDarkModeOn')

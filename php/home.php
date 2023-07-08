@@ -116,10 +116,36 @@
                 <a href="" class="card-wrapper">
                     <div class="card">
                         <div class="poster">
-                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
+                            <img src="https://assets-prd.ignimgs.com/2022/07/21/oppenheimer-poster-1658411601593.jpeg" alt="">
                         </div>
                         <div class="title">
-                            Spiderman: Across the Spiderverse
+                            Oppenheimer
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-heart"></i>
+                            <h3>20k</h3><br>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>9/10</h3><br>
+                            <i class="fa-solid fa-clock"></i>
+                            <h3>3h</h3>
+                        </div>
+                        <div class="details2">
+                            <h3>English</h3>
+                            <h3>Hindi (Dub)</h3>
+                            <h3>4DX</h3>
+                            <h3>3D</h3>
+                            <h3>2D</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="card-wrapper">
+                    <div class="card">
+                        <div class="poster">
+                            <img src="https://variety.com/wp-content/uploads/2023/04/Fs3zzy_aMAAyCNC.jpeg" alt="">
+                        </div>
+                        <div class="title">
+                            Barbie
                         </div>
                         <div class="details">
                             <i class="fa-solid fa-heart"></i>
@@ -139,6 +165,134 @@
                     </div>
                 </a>
 
+                <a href="" class="card-wrapper">
+                    <div class="card">
+                        <div class="poster">
+                            <img src="https://m.media-amazon.com/images/M/MV5BNGVkNDc3NjUtNTY5ZS00ZmE0LWE3YzctMDk2OTRlNTdiZWQwXkEyXkFqcGdeQXVyMTU3NDg0OTgx._V1_FMjpg_UX1000_.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            Suzume
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-heart"></i>
+                            <h3>15k</h3><br>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>8/10</h3><br>
+                            <i class="fa-solid fa-clock"></i>
+                            <h3>3h</h3>
+                        </div>
+                        <div class="details2">
+                            <h3>English</h3>
+                            <h3>Japanese</h3>
+                            <h3>4DX</h3>
+                            <h3>3D</h3>
+                            <h3>2D</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="card-wrapper">
+                    <div class="card">
+                        <div class="poster">
+                            <img src="https://assets-prd.ignimgs.com/2023/05/17/mission-impossible-dead-reckoning-poster-1684330438040.jpeg" alt="">
+                        </div>
+                        <div class="title">
+                            Mission Impossible: Dead Reckoning Part One
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-heart"></i>
+                            <h3>20k</h3><br>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>8.5/10</h3><br>
+                            <i class="fa-solid fa-clock"></i>
+                            <h3>3.2h</h3>
+                        </div>
+                        <div class="details2">
+                            <h3>English</h3>
+                            <h3>Hindi (Dub)</h3>
+                            <h3>4DX</h3>
+                            <h3>3D</h3>
+                            <h3>2D</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="card-wrapper">
+                    <div class="card">
+                        <div class="poster">
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ni41LzEwICA0LjlLIFZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00357727-gkcqddnxee-portrait.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            Insidious. The Red Door
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-heart"></i>
+                            <h3>20k</h3><br>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>8.7/10</h3><br>
+                            <i class="fa-solid fa-clock"></i>
+                            <h3>3h</h3>
+                        </div>
+                        <div class="details2">
+                            <h3>English</h3>
+                            <h3>Hindi (Dub)</h3>
+                            <h3>4DX</h3>
+                            <h3>3D</h3>
+                            <h3>2D</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="card-wrapper">
+                    <div class="card">
+                        <div class="poster">
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OS4xLzEwICAySyBWb3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00359447-uredfsrglt-portrait.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            Rangabali
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-heart"></i>
+                            <h3>10k</h3><br>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>8.7/10</h3><br>
+                            <i class="fa-solid fa-clock"></i>
+                            <h3>3h</h3>
+                        </div>
+                        <div class="details2">
+                            <h3>Kannada</h3>
+                            <h3>Hindi (Dub)</h3>
+                            <h3>3D</h3>
+                            <h3>2D</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="card-wrapper">
+                    <div class="card">
+                        <div class="poster">
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC40LzEwICA2SyBWb3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00346122-snphpyehru-portrait.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            Indiana Jones and the Dial of Destiny
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-heart"></i>
+                            <h3>18k</h3><br>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>8/10</h3><br>
+                            <i class="fa-solid fa-clock"></i>
+                            <h3>2.5h</h3>
+                        </div>
+                        <div class="details2">
+                            <h3>English</h3>
+                            <h3>Hindi (Dub)</h3>
+                            <h3>3D</h3>
+                            <h3>2D</h3>
+                        </div>
+                    </div>
+                </a>
+<!-- 
                 <a href="" class="card-wrapper">
                     <div class="card">
                         <div class="poster">
@@ -241,163 +395,7 @@
                             <h3>2D</h3>
                         </div>
                     </div>
-                </a>
-
-                <a href="" class="card-wrapper">
-                    <div class="card">
-                        <div class="poster">
-                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
-                        </div>
-                        <div class="title">
-                            Spiderman: Across the Spiderverse
-                        </div>
-                        <div class="details">
-                            <i class="fa-solid fa-heart"></i>
-                            <h3>20k</h3><br>
-                            <i class="fa-solid fa-star"></i>
-                            <h3>8.7/10</h3><br>
-                            <i class="fa-solid fa-clock"></i>
-                            <h3>3h</h3>
-                        </div>
-                        <div class="details2">
-                            <h3>English</h3>
-                            <h3>Hindi (Dub)</h3>
-                            <h3>4DX</h3>
-                            <h3>3D</h3>
-                            <h3>2D</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="" class="card-wrapper">
-                    <div class="card">
-                        <div class="poster">
-                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
-                        </div>
-                        <div class="title">
-                            Spiderman: Across the Spiderverse
-                        </div>
-                        <div class="details">
-                            <i class="fa-solid fa-heart"></i>
-                            <h3>20k</h3><br>
-                            <i class="fa-solid fa-star"></i>
-                            <h3>8.7/10</h3><br>
-                            <i class="fa-solid fa-clock"></i>
-                            <h3>3h</h3>
-                        </div>
-                        <div class="details2">
-                            <h3>English</h3>
-                            <h3>Hindi (Dub)</h3>
-                            <h3>4DX</h3>
-                            <h3>3D</h3>
-                            <h3>2D</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="" class="card-wrapper">
-                    <div class="card">
-                        <div class="poster">
-                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
-                        </div>
-                        <div class="title">
-                            Spiderman: Across the Spiderverse
-                        </div>
-                        <div class="details">
-                            <i class="fa-solid fa-heart"></i>
-                            <h3>20k</h3><br>
-                            <i class="fa-solid fa-star"></i>
-                            <h3>8.7/10</h3><br>
-                            <i class="fa-solid fa-clock"></i>
-                            <h3>3h</h3>
-                        </div>
-                        <div class="details2">
-                            <h3>English</h3>
-                            <h3>Hindi (Dub)</h3>
-                            <h3>4DX</h3>
-                            <h3>3D</h3>
-                            <h3>2D</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="" class="card-wrapper">
-                    <div class="card">
-                        <div class="poster">
-                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
-                        </div>
-                        <div class="title">
-                            Spiderman: Across the Spiderverse
-                        </div>
-                        <div class="details">
-                            <i class="fa-solid fa-heart"></i>
-                            <h3>20k</h3><br>
-                            <i class="fa-solid fa-star"></i>
-                            <h3>8.7/10</h3><br>
-                            <i class="fa-solid fa-clock"></i>
-                            <h3>3h</h3>
-                        </div>
-                        <div class="details2">
-                            <h3>English</h3>
-                            <h3>Hindi (Dub)</h3>
-                            <h3>4DX</h3>
-                            <h3>3D</h3>
-                            <h3>2D</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="" class="card-wrapper">
-                    <div class="card">
-                        <div class="poster">
-                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
-                        </div>
-                        <div class="title">
-                            Spiderman: Across the Spiderverse
-                        </div>
-                        <div class="details">
-                            <i class="fa-solid fa-heart"></i>
-                            <h3>20k</h3><br>
-                            <i class="fa-solid fa-star"></i>
-                            <h3>8.7/10</h3><br>
-                            <i class="fa-solid fa-clock"></i>
-                            <h3>3h</h3>
-                        </div>
-                        <div class="details2">
-                            <h3>English</h3>
-                            <h3>Hindi (Dub)</h3>
-                            <h3>4DX</h3>
-                            <h3>3D</h3>
-                            <h3>2D</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="" class="card-wrapper">
-                    <div class="card">
-                        <div class="poster">
-                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
-                        </div>
-                        <div class="title">
-                            Spiderman: Across the Spiderverse
-                        </div>
-                        <div class="details">
-                            <i class="fa-solid fa-heart"></i>
-                            <h3>20k</h3><br>
-                            <i class="fa-solid fa-star"></i>
-                            <h3>8.7/10</h3><br>
-                            <i class="fa-solid fa-clock"></i>
-                            <h3>3h</h3>
-                        </div>
-                        <div class="details2">
-                            <h3>English</h3>
-                            <h3>Hindi (Dub)</h3>
-                            <h3>4DX</h3>
-                            <h3>3D</h3>
-                            <h3>2D</h3>
-                        </div>
-                    </div>
-                </a>
+                </a> -->
 
             </div>
         </div>
@@ -414,7 +412,7 @@
             </div>
             <div class="wrapper">
 
-                <a href="" class="card-wrapper">
+            <a href="booking.php" class="card-wrapper">
                     <div class="card">
                         <div class="poster">
                             <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
@@ -443,10 +441,36 @@
                 <a href="" class="card-wrapper">
                     <div class="card">
                         <div class="poster">
-                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
+                            <img src="https://assets-prd.ignimgs.com/2022/07/21/oppenheimer-poster-1658411601593.jpeg" alt="">
                         </div>
                         <div class="title">
-                            Spiderman: Across the Spiderverse
+                            Oppenheimer
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-heart"></i>
+                            <h3>20k</h3><br>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>9/10</h3><br>
+                            <i class="fa-solid fa-clock"></i>
+                            <h3>3h</h3>
+                        </div>
+                        <div class="details2">
+                            <h3>English</h3>
+                            <h3>Hindi (Dub)</h3>
+                            <h3>4DX</h3>
+                            <h3>3D</h3>
+                            <h3>2D</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="card-wrapper">
+                    <div class="card">
+                        <div class="poster">
+                            <img src="https://variety.com/wp-content/uploads/2023/04/Fs3zzy_aMAAyCNC.jpeg" alt="">
+                        </div>
+                        <div class="title">
+                            Barbie
                         </div>
                         <div class="details">
                             <i class="fa-solid fa-heart"></i>
@@ -469,18 +493,44 @@
                 <a href="" class="card-wrapper">
                     <div class="card">
                         <div class="poster">
-                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
+                            <img src="https://m.media-amazon.com/images/M/MV5BNGVkNDc3NjUtNTY5ZS00ZmE0LWE3YzctMDk2OTRlNTdiZWQwXkEyXkFqcGdeQXVyMTU3NDg0OTgx._V1_FMjpg_UX1000_.jpg" alt="">
                         </div>
                         <div class="title">
-                            Spiderman: Across the Spiderverse
+                            Suzume
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-heart"></i>
+                            <h3>15k</h3><br>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>8/10</h3><br>
+                            <i class="fa-solid fa-clock"></i>
+                            <h3>3h</h3>
+                        </div>
+                        <div class="details2">
+                            <h3>English</h3>
+                            <h3>Japanese</h3>
+                            <h3>4DX</h3>
+                            <h3>3D</h3>
+                            <h3>2D</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="card-wrapper">
+                    <div class="card">
+                        <div class="poster">
+                            <img src="https://assets-prd.ignimgs.com/2023/05/17/mission-impossible-dead-reckoning-poster-1684330438040.jpeg" alt="">
+                        </div>
+                        <div class="title">
+                            Mission Impossible: Dead Reckoning Part One
                         </div>
                         <div class="details">
                             <i class="fa-solid fa-heart"></i>
                             <h3>20k</h3><br>
                             <i class="fa-solid fa-star"></i>
-                            <h3>8.7/10</h3><br>
+                            <h3>8.5/10</h3><br>
                             <i class="fa-solid fa-clock"></i>
-                            <h3>3h</h3>
+                            <h3>3.2h</h3>
                         </div>
                         <div class="details2">
                             <h3>English</h3>
@@ -495,75 +545,22 @@
                 <a href="" class="card-wrapper">
                     <div class="card">
                         <div class="poster">
-                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OC40LzEwICA2SyBWb3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00346122-snphpyehru-portrait.jpg" alt="">
                         </div>
                         <div class="title">
-                            Spiderman: Across the Spiderverse
+                            Indiana Jones and the Dial of Destiny
                         </div>
                         <div class="details">
                             <i class="fa-solid fa-heart"></i>
-                            <h3>20k</h3><br>
+                            <h3>18k</h3><br>
                             <i class="fa-solid fa-star"></i>
-                            <h3>8.7/10</h3><br>
+                            <h3>8/10</h3><br>
                             <i class="fa-solid fa-clock"></i>
-                            <h3>3h</h3>
+                            <h3>2.5h</h3>
                         </div>
                         <div class="details2">
                             <h3>English</h3>
                             <h3>Hindi (Dub)</h3>
-                            <h3>4DX</h3>
-                            <h3>3D</h3>
-                            <h3>2D</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="" class="card-wrapper">
-                    <div class="card">
-                        <div class="poster">
-                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
-                        </div>
-                        <div class="title">
-                            Spiderman: Across the Spiderverse
-                        </div>
-                        <div class="details">
-                            <i class="fa-solid fa-heart"></i>
-                            <h3>20k</h3><br>
-                            <i class="fa-solid fa-star"></i>
-                            <h3>8.7/10</h3><br>
-                            <i class="fa-solid fa-clock"></i>
-                            <h3>3h</h3>
-                        </div>
-                        <div class="details2">
-                            <h3>English</h3>
-                            <h3>Hindi (Dub)</h3>
-                            <h3>4DX</h3>
-                            <h3>3D</h3>
-                            <h3>2D</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="" class="card-wrapper">
-                    <div class="card">
-                        <div class="poster">
-                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
-                        </div>
-                        <div class="title">
-                            Spiderman: Across the Spiderverse
-                        </div>
-                        <div class="details">
-                            <i class="fa-solid fa-heart"></i>
-                            <h3>20k</h3><br>
-                            <i class="fa-solid fa-star"></i>
-                            <h3>8.7/10</h3><br>
-                            <i class="fa-solid fa-clock"></i>
-                            <h3>3h</h3>
-                        </div>
-                        <div class="details2">
-                            <h3>English</h3>
-                            <h3>Hindi (Dub)</h3>
-                            <h3>4DX</h3>
                             <h3>3D</h3>
                             <h3>2D</h3>
                         </div>
@@ -607,7 +604,8 @@
             </div>
             <div class="wrapper">
 
-                <a href="" class="card-wrapper">
+
+            <a href="booking.php" class="card-wrapper">
                     <div class="card">
                         <div class="poster">
                             <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
@@ -636,10 +634,36 @@
                 <a href="" class="card-wrapper">
                     <div class="card">
                         <div class="poster">
-                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
+                            <img src="https://assets-prd.ignimgs.com/2022/07/21/oppenheimer-poster-1658411601593.jpeg" alt="">
                         </div>
                         <div class="title">
-                            Spiderman: Across the Spiderverse
+                            Oppenheimer
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-heart"></i>
+                            <h3>20k</h3><br>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>9/10</h3><br>
+                            <i class="fa-solid fa-clock"></i>
+                            <h3>3h</h3>
+                        </div>
+                        <div class="details2">
+                            <h3>English</h3>
+                            <h3>Hindi (Dub)</h3>
+                            <h3>4DX</h3>
+                            <h3>3D</h3>
+                            <h3>2D</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="card-wrapper">
+                    <div class="card">
+                        <div class="poster">
+                            <img src="https://variety.com/wp-content/uploads/2023/04/Fs3zzy_aMAAyCNC.jpeg" alt="">
+                        </div>
+                        <div class="title">
+                            Barbie
                         </div>
                         <div class="details">
                             <i class="fa-solid fa-heart"></i>
@@ -662,18 +686,44 @@
                 <a href="" class="card-wrapper">
                     <div class="card">
                         <div class="poster">
-                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
+                            <img src="https://m.media-amazon.com/images/M/MV5BNGVkNDc3NjUtNTY5ZS00ZmE0LWE3YzctMDk2OTRlNTdiZWQwXkEyXkFqcGdeQXVyMTU3NDg0OTgx._V1_FMjpg_UX1000_.jpg" alt="">
                         </div>
                         <div class="title">
-                            Spiderman: Across the Spiderverse
+                            Suzume
+                        </div>
+                        <div class="details">
+                            <i class="fa-solid fa-heart"></i>
+                            <h3>15k</h3><br>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>8/10</h3><br>
+                            <i class="fa-solid fa-clock"></i>
+                            <h3>3h</h3>
+                        </div>
+                        <div class="details2">
+                            <h3>English</h3>
+                            <h3>Japanese</h3>
+                            <h3>4DX</h3>
+                            <h3>3D</h3>
+                            <h3>2D</h3>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="card-wrapper">
+                    <div class="card">
+                        <div class="poster">
+                            <img src="https://assets-prd.ignimgs.com/2023/05/17/mission-impossible-dead-reckoning-poster-1684330438040.jpeg" alt="">
+                        </div>
+                        <div class="title">
+                            Mission Impossible: Dead Reckoning Part One
                         </div>
                         <div class="details">
                             <i class="fa-solid fa-heart"></i>
                             <h3>20k</h3><br>
                             <i class="fa-solid fa-star"></i>
-                            <h3>8.7/10</h3><br>
+                            <h3>8.5/10</h3><br>
                             <i class="fa-solid fa-clock"></i>
-                            <h3>3h</h3>
+                            <h3>3.2h</h3>
                         </div>
                         <div class="details2">
                             <h3>English</h3>
@@ -688,88 +738,10 @@
                 <a href="" class="card-wrapper">
                     <div class="card">
                         <div class="poster">
-                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ni41LzEwICA0LjlLIFZvdGVz,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00357727-gkcqddnxee-portrait.jpg" alt="">
                         </div>
                         <div class="title">
-                            Spiderman: Across the Spiderverse
-                        </div>
-                        <div class="details">
-                            <i class="fa-solid fa-heart"></i>
-                            <h3>20k</h3><br>
-                            <i class="fa-solid fa-star"></i>
-                            <h3>8.7/10</h3><br>
-                            <i class="fa-solid fa-clock"></i>
-                            <h3>3h</h3>
-                        </div>
-                        <div class="details2">
-                            <h3>English</h3>
-                            <h3>Hindi (Dub)</h3>
-                            <h3>4DX</h3>
-                            <h3>3D</h3>
-                            <h3>2D</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="" class="card-wrapper">
-                    <div class="card">
-                        <div class="poster">
-                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
-                        </div>
-                        <div class="title">
-                            Spiderman: Across the Spiderverse
-                        </div>
-                        <div class="details">
-                            <i class="fa-solid fa-heart"></i>
-                            <h3>20k</h3><br>
-                            <i class="fa-solid fa-star"></i>
-                            <h3>8.7/10</h3><br>
-                            <i class="fa-solid fa-clock"></i>
-                            <h3>3h</h3>
-                        </div>
-                        <div class="details2">
-                            <h3>English</h3>
-                            <h3>Hindi (Dub)</h3>
-                            <h3>4DX</h3>
-                            <h3>3D</h3>
-                            <h3>2D</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="" class="card-wrapper">
-                    <div class="card">
-                        <div class="poster">
-                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
-                        </div>
-                        <div class="title">
-                            Spiderman: Across the Spiderverse
-                        </div>
-                        <div class="details">
-                            <i class="fa-solid fa-heart"></i>
-                            <h3>20k</h3><br>
-                            <i class="fa-solid fa-star"></i>
-                            <h3>8.7/10</h3><br>
-                            <i class="fa-solid fa-clock"></i>
-                            <h3>3h</h3>
-                        </div>
-                        <div class="details2">
-                            <h3>English</h3>
-                            <h3>Hindi (Dub)</h3>
-                            <h3>4DX</h3>
-                            <h3>3D</h3>
-                            <h3>2D</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="" class="card-wrapper">
-                    <div class="card">
-                        <div class="poster">
-                            <img src="https://m.media-amazon.com/images/M/MV5BNzQ1ODUzYjktMzRiMS00ODNiLWI4NzQtOTRiN2VlNTNmODFjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg" alt="">
-                        </div>
-                        <div class="title">
-                            Spiderman: Across the Spiderverse
+                            Insidious. The Red Door
                         </div>
                         <div class="details">
                             <i class="fa-solid fa-heart"></i>
